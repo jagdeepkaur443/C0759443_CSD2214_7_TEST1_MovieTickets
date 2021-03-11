@@ -1,0 +1,1 @@
+document.getElementsByClassName("seat1")[0].className = 'newclass';
