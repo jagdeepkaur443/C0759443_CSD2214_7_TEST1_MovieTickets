@@ -1,0 +1,12 @@
+#row1, #row2, #row3,
+#row4, #row5, #row6{
+    display: flex;
+} 
+
+.seat1, .seat2, .seat3, .seat4, .seat5,
+.seat6, .seat7, .seat8, .seat9, .seat10{
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
