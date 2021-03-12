@@ -1,14 +1,13 @@
 function purchase(){
-    var name = document.getElementById("name"); 
-    console.log(name);
-    var email = document.getElementById("email"); 
-    var phone = document.getElementById("phone"); 
-    var creditcard = document.getElementById("creditcard"); 
-    var nameOnCard = document.getElementById("nameOnCard"); 
-    var cvv = document.getElementById("cvv");
+    var name = document.getElementById("name").value; 
+    var email = document.getElementById("email").value; 
+    var phone = document.getElementById("phone").value; 
+    var creditcard = document.getElementById("creditCard").value; 
+    var nameOnCard = document.getElementById("cardName").value; 
+    var cvv = document.getElementById("cvv").value;
     var error = "";
     if(name == ""){
-        error = "Name cannot be empty";
+        error += "Name cannot be empty";
     }else if(email == ""){
         error += "Enter valid email";
     }else if(phone == ""){
@@ -22,8 +21,4 @@ function purchase(){
     }
 
     document.getElementById("error").innerHTML = error;
-
-    // if(error == ""){
-    //     alert(name);
-    // }
 }
