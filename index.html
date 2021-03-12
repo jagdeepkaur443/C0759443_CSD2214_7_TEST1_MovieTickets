@@ -41,7 +41,7 @@
         <!-- Row1 end -->
 
         <div id="row2">
-            <div class="seat1"></div>
+            <div class="seat1" onclick="seatSelect();"></div>
             <div class="seat2"></div>
             <div class="seat3"></div>
             <div class="seat4"></div>
@@ -112,8 +112,8 @@
              Selected: <div class="selected"></div>
         </div>
 
-        <p>Movie selected: </p>
-        <p>Ticket Price: </p>
+        <p>Movie selected: <span id="movieSelected"></span></p>
+        <p>Ticket Price: <span id="ticketPrice"></span></p>
         <p>Number of seat selected: </p>
         <p>Total Price: </p>
         <input type="button" id="book" value="Book">
