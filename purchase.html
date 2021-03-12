@@ -11,7 +11,7 @@
     <h2 id="movieName"></h2>
     <form action="">
         <label for="name">Name: </label>
-        <input type="text" id="name" placeholder="Name"><br/>
+        <input type="text" name="name" id="name" placeholder="Name"><br/>
         <label for="email">Email: </label>
         <input type="email" id="email" placeholder="Email"><br/>
         <label for="phone">Phone Number: </label>
@@ -25,7 +25,7 @@
         <label for="cvv">CVV: </label>
         <input type="password" name="cvv" id="cvv" placeholder="123"><br/>
         <br/>
-        <input type="button" name="submit" id="button" value="Confirm">
+        <input type="button" onClick="purchase();" name="submit" id="button" value="Confirm">
         
         <h3 id="error"></h3>
     </form>
