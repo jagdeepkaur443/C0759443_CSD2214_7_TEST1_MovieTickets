@@ -1,3 +1,5 @@
+var 
+
 function selectmovie(){
     var e = document.getElementById("movies");
     var text = e.options[e.selectedIndex].text;
@@ -18,4 +20,16 @@ function selectmovie(){
 function seatSelect(){
     x = document.getElementsByClassName("seat");
     x[0].style.backgroundColor = 'red';
+}
+
+function purchase(){
+    var name = document.getElementById("name"); 
+    var email = document.getElementById("email"); 
+    var phone = document.getElementById("phone"); 
+    var creditcard = document.getElementById("creditcard"); 
+    var nameOnCard = document.getElementById("nameOnCard"); 
+    var cvv = document.getElementById("cvv");
+    if(name == ""){
+
+    }
 }

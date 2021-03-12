@@ -8,6 +8,7 @@
     <title>Movie Tickets</title>
 </head>
 <body>
+    <h2 id="movieName"></h2>
     <form action="">
         <label for="name">Name: </label>
         <input type="text" id="name" placeholder="Name"><br/>
@@ -23,9 +24,10 @@
         <input type="month" name="expiryDate" id="expiryDate" value="2021-03"><br/>
         <label for="cvv">CVV: </label>
         <input type="password" name="cvv" id="cvv" placeholder="123"><br/>
-
-        <input type="button" name="submit" id="button">
-
+        <br/>
+        <input type="button" name="submit" id="button" value="Confirm">
+        
+        <h3 id="error"></h3>
     </form>
 </body>
 </html>
