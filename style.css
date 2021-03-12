@@ -4,12 +4,11 @@
 } 
 
 .seat1, .seat2, .seat3, .seat4, .seat5,
-.seat6, .seat7, .seat8, .seat9, .seat10, .seat{
+.seat6, .seat7, .seat8, .seat9, .seat10, #seat1{
     border: 1px solid black;
     width: 20px;
     height: 20px;
     margin: 5px;
-    background-color: purple;
 }
 
 .legend{
@@ -34,6 +33,6 @@
     background-color: green;
 }
 
-.newclass{
-    background-color: green;
+.toggle{
+    background-color: red;
 }
