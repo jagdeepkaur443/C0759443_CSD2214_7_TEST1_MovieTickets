@@ -20,7 +20,3 @@ function seatSelect(){
     x[0].style.backgroundColor = 'red';
 }
 
-function totalPrice(){
-    var tickets = document.getElementById("tickets").value;
-    if()
-}
